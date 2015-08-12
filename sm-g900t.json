@@ -1,0 +1,113 @@
+{
+  "name": "<b><font color=\"#FFFFFF\">HispAsian Kernel</font></b>",
+  "short_description": "<b>by ShinySide</b>",
+  "long_description": "HispAsian Kernel for TouchWiz 5.1.1 Based Roms",
+  "logo": "https://raw.githubusercontent.com/ShinySide/KernelUpdates/master/hklogo.png",
+  "xda": "http://http://forum.xda-developers.com/tmobile-galaxy-s5/orig-development/kernel-hispasian-kernel-5-1-1-t3158877",
+  "github": "https://github.com/ShinySide/HispAsian_Lollipop",
+  "features": [
+    "Built from T-Mobile FOF6 Source",
+    "Permissive",
+    "Init.d Support",
+    "Wake And Sleep Functions",
+    "Sound Control Support",
+    "Color Control Support",
+    "CPU Voltage Control",
+    "Fast Charge Support",
+    "QuickWakeUP",
+    "TCP Congestion Controllers",
+    "CPU Govenors",
+    "Schedulers",
+    "Slimbus overclock",
+    "Auto Hotplug",
+    "Frandom",
+    "FSync",
+    "Arch Power",
+    "Gentle Fair Sleepers (Disabled by default)",
+    "Enabled All Suspend and Idle Modes",
+    {
+      "name": "CPU Governors",
+      "items": [
+        "pegasusq",
+        "smartmax",
+        "dancedance",
+        "intellidemand",
+        "interactive",
+        "conservative",
+        "ondemand",
+        "userspace",
+        "powersave",
+	"abyssplugv2",
+        "lionheart",
+        "performance"
+      ]
+    },
+    {
+      "name": "GPU Governors",
+      "items": [
+        "cpubw_hwmon",
+        "msm-cpufreq",
+        "msm-adreno-tz",
+        "userspace",
+        "powersave",
+        "performance",
+        "simple_ondemand"
+      ]
+    },
+    {
+      "name": "I/O Schedulers",
+      "items": [
+        "noop",
+        "deadline",
+        "row",
+        "cfq",
+        "bfq",
+        "sio",
+        "fiops",
+        "zen",
+        "fifo",
+        "vr"
+      ]
+    },
+    {
+      "name": "TCP Congestion Controls",
+      "items": [
+        "cubic",
+        "reno",
+        "bic",
+        "westwood",
+        "highspeed",
+        "hybla",
+        "htcp",
+        "vegas",
+        "scaleable",
+        "lp",
+        "yeah",
+        "illinois"
+      ]
+    }
+  ],
+  "downloads": [
+    {
+      "name": "HispAsian_Kernel_FOF6_v2",
+      "url": "https://fl1.androidfilehost.com/dl/WJ8HH7uYHUK9ukp59R4P7Q/1439383931/24052804347788871/HispAsian_Kernel_5.1.1_08_06_2015.zip",
+      "md5sum": "20b77500ff50f4613f42ccc660f955a0",
+      "changelog": [
+        "Add faux sound",
+        "Import Kt's Fast Charge",
+        "Add cpu voltage control",
+        "Import KT's Screen wake and sleep functions",
+        "Add Quickwakeup",
+        "increase entropy levels (both read and write)"
+      ]
+    },
+    {
+      "name": "HispAsian_Kernel_FOF6_v1",
+      "url": "https://fl1.androidfilehost.com/dl/ho19M1xDZ8wtRB-91Bsitw/1439383993/24052804347775390/HispAsian_Kernel_5.1.1.zip",
+      "md5sum": "46225085a319dec6169a001fbf8be77d",
+      "changelog": [
+      "Initial Release"
+      ]
+    }
+  ]
+}
