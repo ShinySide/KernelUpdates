@@ -5,14 +5,16 @@
   "logo": "https://raw.githubusercontent.com/ShinySide/KernelUpdates/master/hklogo.png",
   "xda": "http://forum.xda-developers.com/tmobile-galaxy-s5/orig-development/kernel-hispasian-kernel-5-1-1-t3158877",
   "paypal": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=MQQTCNXQZB5RS&lc=US&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted",
-  "github": "https://github.com/ShinySide/HispAsian_Lollipop",
+  "github": "https://github.com/ShinySide/HispAsian_Lollipop_G6",
   "features": [
-    "Built from T-Mobile FOF6 Source",
+    "Built from T-Mobile FOG6 Source",
+    "Compiled with latest 07-15 UBER 4.9.4 Toolchain",
     "Permissive",
+    "Kernel Mode NEON",
     "Init.d Support",
     "Wake And Sleep Functions",
     "Sound Control Support",
-    "Color Control Support",
+    "KCAL/Display Color Support",
     "CPU Voltage Control",
     "Fast Charge Support",
     "QuickWakeUP",
@@ -20,12 +22,18 @@
     "CPU Govenors",
     "Schedulers",
     "Slimbus overclock",
-    "Auto Hotplug",
+    "Google's Snappy Compression/Decompression",
     "Frandom",
     "FSync",
-    "Arch Power",
+    "F2FS",
+    "Power Efficient Workqueues",
+    "UKSM",
+    "Enabled Arch Power",
+    "Power Suspend Mode/State",
+    "CRC Check Disabled",
     "Gentle Fair Sleepers (Disabled by default)",
     "Enabled All Suspend and Idle Modes",
+    "Enabled/Disable Android Logging",
     {
       "name": "CPU Governors",
       "items": [
@@ -90,24 +98,18 @@
   ],
   "downloads": [
     {
-      "name": "HispAsian_Kernel_FOF6_v2",
-      "url": "https://fl1.androidfilehost.com/dl/WJ8HH7uYHUK9ukp59R4P7Q/1439383931/24052804347788871/HispAsian_Kernel_5.1.1_08_06_2015.zip",
-      "md5sum": "20b77500ff50f4613f42ccc660f955a0",
+      "name": "HispAsian_Kernel_FOG6_v1",
+      "url": "https://fl1.androidfilehost.com/dl/3U2ZgMqMV-vCDn4tx0QTqw/1439627868/24052804347794078/HispAsian_Kernel_FOG6_v1.zip",
+      "md5sum": "35d44f91fe4c3b484f9995d667a9b167",
       "changelog": [
-        "Add faux sound",
-        "Import Kt's Fast Charge",
-        "Add cpu voltage control",
-        "Import KT's Screen wake and sleep functions",
-        "Add Quickwakeup",
-        "increase entropy levels (both read and write)"
-      ]
-    },
-    {
-      "name": "HispAsian_Kernel_FOF6_v1",
-      "url": "https://fl1.androidfilehost.com/dl/ho19M1xDZ8wtRB-91Bsitw/1439383993/24052804347775390/HispAsian_Kernel_5.1.1.zip",
-      "md5sum": "46225085a319dec6169a001fbf8be77d",
-      "changelog": [
-      "Initial Release"
+        "FOG6 Source",
+        "Brought up even with features from my FOF6 version",
+        "Switched to 07-15 UBER Toolchain 4.9.4",
+        "KCAL/Display Color Control Support",
+        "Enabled Google's Snappy Compression/Decompression",
+        "Enable/Disable Android Logger",
+	"Kernel Mode NEON",
+        "About 45 Other Commits not feature related",
       ]
     }
   ]
