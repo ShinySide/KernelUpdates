@@ -24,7 +24,7 @@
     "Slimbus overclock",
     "Google's Snappy Compression/Decompression",
     "Frandom",
-    "FSync",
+    "Dynamic FSync",
     "F2FS",
     "Power Efficient Workqueues",
     "UKSM",
@@ -97,6 +97,23 @@
     }
   ],
   "downloads": [
+    {
+      "name": "HispAsian_Kernel_FOG6_v2",
+      "url": "https://fl1.androidfilehost.com/dl/OSX-a5zsguCwTZlsRoI9vw/1439788009/24052804347795328/HispAsian_Kernel_FOG6_v2.zip",
+      "md5sum": "f09b0ee69ff5b814162177ebec0f1add",
+       "changelog": [
+        "Removed FSync",
+        "Added Dynamic FSync 2.0 (Now Shows in KA)",
+	"LCD Notifier",
+        "Fixed KSM/UKSM Not Building (Now Also Shows in KA)",
+        "PowerSuspend Updated to 1.5",
+        "PowerSuspend Hooks for LCD On/Off",
+	"LCD Notifier",
+	"cpufreq_limit commits",
+	"futex commits",
+	"Makefile Optimization Flags",
+      ]
+    },
     {
       "name": "HispAsian_Kernel_FOG6_v1",
       "url": "https://fl1.androidfilehost.com/dl/3U2ZgMqMV-vCDn4tx0QTqw/1439627868/24052804347794078/HispAsian_Kernel_FOG6_v1.zip",
