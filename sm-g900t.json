@@ -13,13 +13,14 @@
     "Kernel Mode NEON",
     "Init.d Support",
     "Wake And Sleep Functions",
+    "Off/On Some Wakelocks Interface",
     "Sound Control Support",
     "KCAL/Display Color Support",
     "CPU Overclocking",
     "GPU Overclocking",
     "CPU Voltage Control",
     "Intelliplug",
-    "Simple GPU Algorithm",
+    "Adreno Idler",
     "Touch Booster",
     "CPU Booster",
     "Fast Charge Support",
@@ -122,6 +123,25 @@
     }
   ],
   "downloads": [
+	{
+      "name": "HispAsian_Kernel_FOG6_v5 AKA Shiny Got Pissed The F*ck Off At Overclock Edition",
+      "url": "http://ca1.androidfilehost.com/dl/2vNBFXmoNyuhqeHCK4ZBAw/1440749995/24052804347802666/HispAsian_Kernel_FOG6_v5.zip",
+      "md5sum": "d893ec83eb672f2dbe3f7ff7b49984af",
+       "changelog": [
+	"DELETE DATA OUT OF KA IN APPLICATION MANAGER. MANDATORY.",
+	"Reverted ALL OverClock commits",
+	"Introduced Ktoonsez logic for OC CPU/GPU",
+	"Defaults Stock Freqs",
+	"Overclock CPU to 3.0ghz",
+	"Bunch of Added CPU Steps",
+	"Overclock GPU to 657mhz",
+        "KThermal",
+	"KT Auto Hotplug",
+        "Added ktoonservativeq CPU gov",
+	"Bandwidth tweaks on upper on steps",
+	"Removed CPU Boost",
+      ]
+    },
         {
       "name": "HispAsian_Kernel_FOG6_v4",
       "url": "https://fl1.androidfilehost.com/dl/UqcCENBsdTf94cXfaL26Sg/1440676499/24052804347802116/HispAsian_Kernel_FOG6_v4.zip",
