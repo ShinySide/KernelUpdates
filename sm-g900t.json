@@ -2,7 +2,7 @@
   "name": "<b><font color=\"#FFFFFF\">HispAsian Kernel</font></b>",
   "short_description": "<b>by ShinySide</b>",
   "long_description": "HispAsian Kernel for TouchWiz 5.1.1 Based Roms",
-  "logo": "https://raw.githubusercontent.com/ShinySide/KernelUpdates/master/hklogo.gif",
+  "logo": "https://raw.githubusercontent.com/ShinySide/KernelUpdates/master/hklogo.png",
   "xda": "http://forum.xda-developers.com/tmobile-galaxy-s5/orig-development/kernel-hispasian-kernel-5-1-1-t3158877",
   "paypal": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=MQQTCNXQZB5RS&lc=US&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted",
   "github": "https://github.com/ShinySide/HispAsian_Lollipop_G6",
@@ -20,6 +20,10 @@
     "GPU Overclocking",
     "CPU Voltage Control",
     "Intelliplug",
+    "Msm_zen_decision hotplug",
+    "Autosmp hotplug",
+    "Msm-sleeper hotplug",
+    "Bricked hotplug",
     "Adreno Idler",
     "Touch Booster",
     "CPU Booster",
@@ -123,6 +127,18 @@
     }
   ],
   "downloads": [
+	{
+      "name": "HispAsian_Kernel_FOG6_v6",
+      "url": "https://fl1.androidfilehost.com/dl/HCuV96ETSKQUPXz25Oe_og/1441037933/24052804347805022/HispAsian_Kernel_FOG6_v6.zip",
+      "md5sum": "e55bfbb43f4da8ec529bd1fabc8b4898",
+       "changelog": [
+	"Fixed some CPU freqs not being used",
+	"Added Bricked, Msm-sleeper, Msm-zen, AutoSMP Hotplug drivers",
+	"Removed Faux Sound (Too glitchy)",
+	"Added Franco's sound control for headphones,mic,and ear piece speaker",
+	"Removed Kthermal",
+      ]
+    },
 	{
       "name": "HispAsian_Kernel_FOG6_v5 AKA Shiny Got Pissed The F*ck Off At Overclock Edition",
       "url": "https://fl1.androidfilehost.com/dl/_YzHQJCQs9d9w6CLK6MyYw/1440920446/24052804347802666/HispAsian_Kernel_FOG6_v5.zip",
