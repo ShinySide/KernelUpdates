@@ -5,10 +5,10 @@
   "logo": "https://raw.githubusercontent.com/ShinySide/KernelUpdates/master/hklogo.png",
   "xda": "http://forum.xda-developers.com/tmobile-galaxy-s5/orig-development/kernel-hispasian-kernel-5-1-1-t3158877",
   "paypal": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=MQQTCNXQZB5RS&lc=US&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted",
-  "github": "https://github.com/ShinySide/HispAsian_Lollipop_G6",
+  "github": "https://github.com/ShinySide/HispAsian_Lolli",
   "features": [
     "Built from T-Mobile FOG6 Source",
-    "Compiled with latest 20150815 UBER 4.9.4 Toolchain",
+    "Compiled with latest 20150901 UBER 4.9.4 Toolchain",
     "Permissive",
     "Kernel Mode NEON",
     "Init.d Support",
@@ -16,8 +16,6 @@
     "Off/On Some Wakelocks Interface",
     "Sound Control Support",
     "KCAL/Display Color Support",
-    "CPU Overclocking",
-    "GPU Overclocking",
     "CPU Voltage Control",
     "Intelliplug",
     "Msm_zen_decision hotplug",
@@ -34,10 +32,8 @@
     "11 Schedulers",
     "Dynamic Filesystem Read-Ahead",
     "Slimbus overclock",
-    "Google's Snappy Compression/Decompression",
     "Frandom",
     "Dynamic FSync",
-    "F2FS",
     "Power Efficient Workqueues",
     "UKSM",
     "Enabled Arch Power",
@@ -45,8 +41,7 @@
     "CRC Check Disabled",
     "Gentle Fair Sleepers (Disabled by default)",
     "Enabled All Suspend and Idle Modes",
-    "Enabled/Disable Android Logging",
-    "Use device as USB keyboard/mouse",
+    "Enabled/Disable Android Logging",  
     {
       "name": "CPU Governors",
       "items": [
@@ -127,6 +122,20 @@
     }
   ],
   "downloads": [
+	{
+      "name": "HispAsian_Kernel_FOG6_v7",
+      "url": "http://tx1.androidfilehost.com/dl/1P3MmEUbb_81SwOtUO7dcA/1441870081/24052804347811845/HispAsian_Kernel_FOG6_v7.zip",
+      "md5sum": "4158585966fa01802d9783d3f5242753",
+       "changelog": [
+	"Completely Rebuilt from Stock Source",
+	"Updated ToolChain to Latest UBERTC 4.9.4 20150901",
+	"All the Same Features",
+	"No CPU/GPU OC ATM",
+	"Removed F2FS",
+	"Removed Google's Snappy Compression/Decompression",
+	"Removed Use device as USB keyboard/mouse",
+      ]
+    },
 	{
       "name": "HispAsian_Kernel_FOG6_v6",
       "url": "https://fl1.androidfilehost.com/dl/HCuV96ETSKQUPXz25Oe_og/1441037933/24052804347805022/HispAsian_Kernel_FOG6_v6.zip",
