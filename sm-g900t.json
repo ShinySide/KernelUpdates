@@ -7,8 +7,8 @@
   "paypal": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=MQQTCNXQZB5RS&lc=US&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted",
   "github": "https://github.com/ShinySide/HispAsian_Lolli",
   "features": [
-    "Built from T-Mobile FOG6 Source",
-    "Compiled with latest 20150901 UBER 4.9.4 Toolchain",
+    "Built from T-Mobile FOJ4 Source",
+    "Compiled with latest 2015-12-01 UBER 4.8.5 Toolchain",
     "Permissive",
     "Kernel Mode NEON",
     "Init.d Support",
@@ -34,7 +34,6 @@
     "Slimbus overclock",
     "Frandom",
     "Dynamic FSync",
-    "Power Efficient Workqueues",
     "UKSM",
     "Enabled Arch Power",
     "Power Suspend Mode/State",
@@ -122,6 +121,15 @@
     }
   ],
   "downloads": [
+	{
+      "name": "HispAsian_Kernel_FOJ4_v8",
+      "url": "http://tx2.androidfilehost.com/dl/v6ybNqEDOmb47ANhjprpbg/1449967889/24269982087015022/HispAsian_Kernel_FOJ4_v8.zip",
+      "md5sum": "8ce43b29fe6408e7f57c5e17bbf47e8d",
+       "changelog": [
+	"Updated to FOJ4 Source",
+	"Updated ToolChain to Latest UBERTC 4.8.5 20151201",
+      ]
+    },
 	{
       "name": "HispAsian_Kernel_FOG6_v7",
       "url": "https://fl1.androidfilehost.com/dl/mXtBYQXd7PhwBM6Z2xal2g/1442375185/24052804347811845/HispAsian_Kernel_FOG6_v7.zip",
