@@ -120,8 +120,33 @@
   ],
   "downloads": [
     {
-      "name": "The Imperius Curse",
-      "url": "https://tx1.androidfilehost.com/dl/XpCQd0eLiGV2x73TpI9y-w/1466084502/24588232905719922/The_Imperius_Curse.zip",
+      "name": "The Imperius Curse 06-20",
+      "url": "http://qc4.androidfilehost.com/dl/WH-ceV0mw8BumfMkYOTR-A/1467046198/24588212152304009/The-Imperius-Curse-06-20.zip",
+      "md5sum": "2c5b44859312cf769533482c4d500253",
+      "changelog": [
+        "Auto Roots Using Latest SuperSU Systemless Root v2.74",
+        "Removes Security Warning",
+        "Makes Wifi Password Build.prop edit",
+	"Removes Some Knox BS",
+      ]
+      },
+    {
+      "name": "The Imperius Curse 06-16",
+      "url": "https://qc3.androidfilehost.com/dl/xK5lyCz6m8lmoZ0d_rjywA/1467046141/24588232905720046/The-Imperius-Curse-06-16.zip",
+      "md5sum": "8bdb3b39b1c37097380d9013d304b920",
+      "changelog": [
+        "Fixed init.d Support",
+        "Adds Full init.d Support Into ROM.",
+        "Added Busybox, Run-parts, Zipalign and Sqlite3 to zip",
+	"Added Zipalign and Sqlite3 init.d Scripts",
+	"Ability to Disable some common wakelocks",
+	"Min/Max Override Fix",
+	"Activated Intelliactive CPU Gov",
+      ]
+      },
+      {
+      "name": "The Imperius Curse 06-13",
+      "url": "https://qc3.androidfilehost.com/dl/cLlxntYoj5r4N6rigPvMZQ/1467045832/24588232905719922/The_Imperius_Curse.zip",
       "md5sum": "9686fb8a6427120b4f037e8bef6f3922",
       "changelog": [
         "Initial Release",
